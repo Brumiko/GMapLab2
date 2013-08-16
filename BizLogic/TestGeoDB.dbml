@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestGeoDB" Class="TestGeoDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=TestGeoDB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="TestGeoDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BrojackoMjesto" Member="BrojackoMjestos">
+    <Type Name="BrojackoMjesto">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Naziv" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="GDuzina" Type="System.Decimal" DbType="Decimal(9,6) NOT NULL" CanBeNull="false" />
+      <Column Name="GSirina" Type="System.Decimal" DbType="Decimal(9,6) NOT NULL" CanBeNull="false" />
+      <Column Name="Info" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

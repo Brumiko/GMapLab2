@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TestGeoDB">
+  <DataContextMoniker Name="/TestGeoDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="efb31e5b-bc68-4c68-9bcc-1a967cb855e6" absoluteBounds="2.375, 1.25, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/TestGeoDBDataContext/BrojackoMjesto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="330bb895-a5f3-4997-919f-8bf4481a905a" absoluteBounds="2.39, 1.71, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
