@@ -1,0 +1,110 @@
+﻿body 
+{
+    font-family:Verdana, Arial, Sans-Serif;
+    font-size:12px;
+}
+.repeater
+{
+    border: 1px solid black;
+    float:left;
+    font-size:small;
+    margin: 0 5px 5px 0;
+}
+.rpt_header
+{
+    background-color:black;
+    color:White;
+    font-size:large;
+    font-weight:bold;
+    padding:5px;
+}
+.rpt_item
+{
+    padding:3px;
+}
+.rpt_alt_item
+{
+    background-color:#EEEEEE;
+}
+.rpt_selected_item
+{
+    background-color:#F0E68C; /* X11 khaki */
+}
+.rpt_hidden_item
+{
+    display:none;
+}
+.rpt_footer
+{
+    background-color: #DADAEE;
+    border-top:1px solid black;
+    font-size:smaller;
+    font-weight:bold;
+    padding:5px;
+    overflow:hidden;
+    width:250px;
+}
+table.rpt_footer td
+{
+    white-space:nowrap;
+}
+.fullwidth
+{
+    width:100%;
+}
+.centered
+{
+    text-align:center;
+}
+.fake_hidden
+{
+    display:none;
+}
+.right_aligned
+{
+    text-align:right;
+}
+.nav_icons
+{
+    height:16px;
+    width:16px;
+    border:0;
+}
+.err_msg
+{
+    color:Red;
+    font-size:large;
+    font-weight:bold;
+    padding: 5px;
+}
+a, a:visited
+{
+    color:Blue;
+    text-decoration:none;
+}
+a:focus
+{
+    outline:#800000 dotted 2px; /* maroon, isto kao i za hover & active */
+}
+a:hover, a:active
+{
+    color:#800000; /* maroon, isto kao i za focus */
+    text-decoration:underline;
+}
+.content /* table */
+{
+    width:100%;
+}
+.left_menu /* td */
+{
+    vertical-align:top;
+}
+.center_content /* td */
+{
+    width:100%;
+}
+.gmap /* div */
+{
+    height: 720px;
+    width:100%;
+}
